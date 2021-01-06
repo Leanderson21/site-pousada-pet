@@ -1,0 +1,67 @@
+
+body {
+    font-family: Nunito, sans-serif;
+    color: #1c1c1c;
+}
+
+h1,h2,h3 {
+    font-family: Asap, sans-serif;
+    color: #000000;
+}
+
+nav { 
+    display: flex; /* DISPOSIÇÃO DOS ELEMENTOS*/
+    flex-direction: column; /* DISPOSIÇÃO EM COLUNA*/
+    align-items: center; 
+    background-color: #191970;
+}
+
+nav > a {
+    text-decoration: none; /* tira o subilinhado do texto*/
+    color: #ffffff;
+    font-weight: 800; /*  peso da fonte , ou seja o negrito*/
+    font-size: 32px; 
+    font-family: yellowtail, serif;
+}
+
+nav > ul {
+    display: flex; /* DISPOSIÇÃO DOS ELEMENTOS*/
+    flex-direction: column; /* DISPOSIÇÃO EM COLUNA*/
+    align-items: center; 
+    padding: 0;
+    width: 100%; /*O MENU VAI OCULPAR 100% DA PLATAFORMA QUE ELE ESTIVER EXIBINDO*/
+}
+nav > ul > li {
+    text-align: center;
+    width: 100%;
+}
+
+nav > ul > li > a {
+  display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+#servicos img{
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+
+#imagens img{
+    max-width:400px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+}
+
+#contato img{
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+}
